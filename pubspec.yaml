@@ -1,0 +1,40 @@
+name: learn_flutter
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  flutter_bloc:
+  equatable:
+  get_it:
+  intl:
+  floor:
+  cached_network_image:
+  retrofit:
+  flutter_hooks:
+  dio:
+  json_annotation:
+  webview_flutter:
+  flutter_dotenv:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  floor_generator:
+  retrofit_generator:
+  build_runner:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
